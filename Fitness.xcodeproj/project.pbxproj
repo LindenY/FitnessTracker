@@ -22,6 +22,42 @@
 		BC6B4A0018D144B000F970D1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B49E418D144B000F970D1 /* CoreData.framework */; };
 		BC6B4A0818D144B000F970D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A0618D144B000F970D1 /* InfoPlist.strings */; };
 		BC6B4A0A18D144B000F970D1 /* FitnessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A0918D144B000F970D1 /* FitnessTests.m */; };
+		BC6B4A1618D1454400F970D1 /* LODataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A1518D1454400F970D1 /* LODataStore.m */; };
+		BC6B4A1A18D1473A00F970D1 /* LOUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A1918D1473A00F970D1 /* LOUser.m */; };
+		BC6B4A1F18D14ABF00F970D1 /* LOStartingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A1D18D14ABF00F970D1 /* LOStartingViewController.m */; };
+		BC6B4A2018D14ABF00F970D1 /* LOStartingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A1E18D14ABF00F970D1 /* LOStartingViewController.xib */; };
+		BC6B4A2418D152F000F970D1 /* LOFitnessType.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A2318D152F000F970D1 /* LOFitnessType.m */; };
+		BC6B4A2818D156E300F970D1 /* LOTypeSelctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A2718D156E300F970D1 /* LOTypeSelctionViewController.m */; };
+		BC6B4A2C18D1670600F970D1 /* LOGenericType.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A2B18D1670600F970D1 /* LOGenericType.m */; };
+		BC6B4A3318D16A2500F970D1 /* LORun.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A3218D16A2500F970D1 /* LORun.m */; };
+		BC6B4A3818D16B9F00F970D1 /* LOSwim.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A3718D16B9F00F970D1 /* LOSwim.m */; };
+		BC6B4A3E18D2C77400F970D1 /* LORunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A3C18D2C77400F970D1 /* LORunViewController.m */; };
+		BC6B4A3F18D2C77400F970D1 /* LORunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A3D18D2C77400F970D1 /* LORunViewController.xib */; };
+		BC6B4A4218D2CC6B00F970D1 /* LOBike.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A4118D2CC6B00F970D1 /* LOBike.m */; };
+		BC6B4A4718D2D98D00F970D1 /* LOSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A4518D2D98D00F970D1 /* LOSummaryViewController.m */; };
+		BC6B4A4818D2D98D00F970D1 /* LOSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A4618D2D98D00F970D1 /* LOSummaryViewController.xib */; };
+		BC6B4A4C18D4109A00F970D1 /* DailyTypeCalorie.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A4B18D4109A00F970D1 /* DailyTypeCalorie.m */; };
+		BC6B4A5118D4A68E00F970D1 /* LODailyTypeCalorieDao.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A5018D4A68E00F970D1 /* LODailyTypeCalorieDao.m */; };
+		BC6B4A5C18D4C89A00F970D1 /* LODailyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A5B18D4C89A00F970D1 /* LODailyCell.m */; };
+		BC6B4A6218D4D05900F970D1 /* LOHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B4A6118D4D05900F970D1 /* LOHistoryTableViewController.m */; };
+		BC6B4A7518D55D7500F970D1 /* shocked.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A7118D55D7500F970D1 /* shocked.png */; };
+		BC6B4A7618D55D7500F970D1 /* wondering.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A7218D55D7500F970D1 /* wondering.png */; };
+		BC6B4A7718D55D7500F970D1 /* neutral.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A7318D55D7500F970D1 /* neutral.png */; };
+		BC6B4A7818D55D7500F970D1 /* tongue.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A7418D55D7500F970D1 /* tongue.png */; };
+		BC6B4A7D18D55DB600F970D1 /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A7918D55DB600F970D1 /* angry.png */; };
+		BC6B4A7E18D55DB600F970D1 /* confused.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A7A18D55DB600F970D1 /* confused.png */; };
+		BC6B4A7F18D55DB600F970D1 /* evil.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A7B18D55DB600F970D1 /* evil.png */; };
+		BC6B4A8018D55DB600F970D1 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A7C18D55DB600F970D1 /* sad.png */; };
+		BC6B4A8818D55E3400F970D1 /* cool.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A8318D55E3400F970D1 /* cool.png */; };
+		BC6B4A8918D55E3400F970D1 /* grin.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A8418D55E3400F970D1 /* grin.png */; };
+		BC6B4A8A18D55E3400F970D1 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A8518D55E3400F970D1 /* happy.png */; };
+		BC6B4A8B18D55E3400F970D1 /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A8618D55E3400F970D1 /* smiley.png */; };
+		BC6B4A8C18D55E3400F970D1 /* wink.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A8718D55E3400F970D1 /* wink.png */; };
+		BC6B4A9018D5869900F970D1 /* chart-bar-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A8E18D5869800F970D1 /* chart-bar-outline.png */; };
+		BC6B4A9118D5869900F970D1 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A8F18D5869900F970D1 /* user.png */; };
+		BC6B4A9318D58F6900F970D1 /* mid.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A9218D58F6900F970D1 /* mid.png */; };
+		BC6B4A9718D595AF00F970D1 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A9518D595AF00F970D1 /* head.png */; };
+		BC6B4A9818D595AF00F970D1 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B4A9618D595AF00F970D1 /* tail.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +89,58 @@
 		BC6B4A0518D144B000F970D1 /* FitnessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitnessTests-Info.plist"; sourceTree = "<group>"; };
 		BC6B4A0718D144B000F970D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC6B4A0918D144B000F970D1 /* FitnessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitnessTests.m; sourceTree = "<group>"; };
+		BC6B4A1418D1454400F970D1 /* LODataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LODataStore.h; sourceTree = "<group>"; };
+		BC6B4A1518D1454400F970D1 /* LODataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LODataStore.m; sourceTree = "<group>"; };
+		BC6B4A1818D1473A00F970D1 /* LOUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOUser.h; sourceTree = "<group>"; };
+		BC6B4A1918D1473A00F970D1 /* LOUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOUser.m; sourceTree = "<group>"; };
+		BC6B4A1C18D14ABF00F970D1 /* LOStartingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOStartingViewController.h; sourceTree = "<group>"; };
+		BC6B4A1D18D14ABF00F970D1 /* LOStartingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOStartingViewController.m; sourceTree = "<group>"; };
+		BC6B4A1E18D14ABF00F970D1 /* LOStartingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LOStartingViewController.xib; sourceTree = "<group>"; };
+		BC6B4A2218D152F000F970D1 /* LOFitnessType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOFitnessType.h; sourceTree = "<group>"; };
+		BC6B4A2318D152F000F970D1 /* LOFitnessType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOFitnessType.m; sourceTree = "<group>"; };
+		BC6B4A2618D156E300F970D1 /* LOTypeSelctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTypeSelctionViewController.h; sourceTree = "<group>"; };
+		BC6B4A2718D156E300F970D1 /* LOTypeSelctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTypeSelctionViewController.m; sourceTree = "<group>"; };
+		BC6B4A2A18D1670600F970D1 /* LOGenericType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOGenericType.h; sourceTree = "<group>"; };
+		BC6B4A2B18D1670600F970D1 /* LOGenericType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOGenericType.m; sourceTree = "<group>"; };
+		BC6B4A2D18D168AC00F970D1 /* LOGenericTypeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOGenericTypeProtocol.h; sourceTree = "<group>"; };
+		BC6B4A3118D16A2500F970D1 /* LORun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LORun.h; sourceTree = "<group>"; };
+		BC6B4A3218D16A2500F970D1 /* LORun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LORun.m; sourceTree = "<group>"; };
+		BC6B4A3618D16B9F00F970D1 /* LOSwim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSwim.h; sourceTree = "<group>"; };
+		BC6B4A3718D16B9F00F970D1 /* LOSwim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSwim.m; sourceTree = "<group>"; };
+		BC6B4A3B18D2C77400F970D1 /* LORunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LORunViewController.h; sourceTree = "<group>"; };
+		BC6B4A3C18D2C77400F970D1 /* LORunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LORunViewController.m; sourceTree = "<group>"; };
+		BC6B4A3D18D2C77400F970D1 /* LORunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LORunViewController.xib; sourceTree = "<group>"; };
+		BC6B4A4018D2CC6B00F970D1 /* LOBike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOBike.h; sourceTree = "<group>"; };
+		BC6B4A4118D2CC6B00F970D1 /* LOBike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOBike.m; sourceTree = "<group>"; };
+		BC6B4A4418D2D98D00F970D1 /* LOSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSummaryViewController.h; sourceTree = "<group>"; };
+		BC6B4A4518D2D98D00F970D1 /* LOSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSummaryViewController.m; sourceTree = "<group>"; };
+		BC6B4A4618D2D98D00F970D1 /* LOSummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LOSummaryViewController.xib; sourceTree = "<group>"; };
+		BC6B4A4A18D4109A00F970D1 /* DailyTypeCalorie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyTypeCalorie.h; sourceTree = "<group>"; };
+		BC6B4A4B18D4109A00F970D1 /* DailyTypeCalorie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyTypeCalorie.m; sourceTree = "<group>"; };
+		BC6B4A4F18D4A68E00F970D1 /* LODailyTypeCalorieDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LODailyTypeCalorieDao.h; sourceTree = "<group>"; };
+		BC6B4A5018D4A68E00F970D1 /* LODailyTypeCalorieDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LODailyTypeCalorieDao.m; sourceTree = "<group>"; };
+		BC6B4A5A18D4C89A00F970D1 /* LODailyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LODailyCell.h; sourceTree = "<group>"; };
+		BC6B4A5B18D4C89A00F970D1 /* LODailyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LODailyCell.m; sourceTree = "<group>"; };
+		BC6B4A6018D4D05900F970D1 /* LOHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOHistoryTableViewController.h; sourceTree = "<group>"; };
+		BC6B4A6118D4D05900F970D1 /* LOHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOHistoryTableViewController.m; sourceTree = "<group>"; };
+		BC6B4A7118D55D7500F970D1 /* shocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shocked.png; sourceTree = "<group>"; };
+		BC6B4A7218D55D7500F970D1 /* wondering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wondering.png; sourceTree = "<group>"; };
+		BC6B4A7318D55D7500F970D1 /* neutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neutral.png; sourceTree = "<group>"; };
+		BC6B4A7418D55D7500F970D1 /* tongue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tongue.png; sourceTree = "<group>"; };
+		BC6B4A7918D55DB600F970D1 /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angry.png; sourceTree = "<group>"; };
+		BC6B4A7A18D55DB600F970D1 /* confused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confused.png; sourceTree = "<group>"; };
+		BC6B4A7B18D55DB600F970D1 /* evil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evil.png; sourceTree = "<group>"; };
+		BC6B4A7C18D55DB600F970D1 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		BC6B4A8318D55E3400F970D1 /* cool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cool.png; sourceTree = "<group>"; };
+		BC6B4A8418D55E3400F970D1 /* grin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grin.png; sourceTree = "<group>"; };
+		BC6B4A8518D55E3400F970D1 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
+		BC6B4A8618D55E3400F970D1 /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley.png; sourceTree = "<group>"; };
+		BC6B4A8718D55E3400F970D1 /* wink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink.png; sourceTree = "<group>"; };
+		BC6B4A8E18D5869800F970D1 /* chart-bar-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chart-bar-outline.png"; sourceTree = "<group>"; };
+		BC6B4A8F18D5869900F970D1 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		BC6B4A9218D58F6900F970D1 /* mid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mid.png; sourceTree = "<group>"; };
+		BC6B4A9518D595AF00F970D1 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
+		BC6B4A9618D595AF00F970D1 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +172,14 @@
 		BC6B49D218D144B000F970D1 = {
 			isa = PBXGroup;
 			children = (
+				BC6B4A6318D55CC700F970D1 /* IconsPNG */,
+				BC6B4A5218D4B05B00F970D1 /* Histroy */,
+				BC6B4A4318D2D94000F970D1 /* Summary */,
+				BC6B4A2518D156C400F970D1 /* TypeSelection */,
+				BC6B4A2118D1522700F970D1 /* FitnessType */,
+				BC6B4A1B18D14A7F00F970D1 /* Starting */,
+				BC6B4A1718D1473000F970D1 /* User */,
+				BC6B4A1318D144EA00F970D1 /* DataStore */,
 				BC6B49E618D144B000F970D1 /* Fitness */,
 				BC6B4A0318D144B000F970D1 /* FitnessTests */,
 				BC6B49DD18D144B000F970D1 /* Frameworks */,
@@ -118,7 +214,6 @@
 				BC6B49EF18D144B000F970D1 /* LOAppDelegate.h */,
 				BC6B49F018D144B000F970D1 /* LOAppDelegate.m */,
 				BC6B49F518D144B000F970D1 /* Images.xcassets */,
-				BC6B49F218D144B000F970D1 /* Fitness.xcdatamodeld */,
 				BC6B49E718D144B000F970D1 /* Supporting Files */,
 			);
 			path = Fitness;
@@ -151,6 +246,259 @@
 				BC6B4A0618D144B000F970D1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC6B4A1318D144EA00F970D1 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B49F218D144B000F970D1 /* Fitness.xcdatamodeld */,
+				BC6B4A4E18D413CE00F970D1 /* DataDao */,
+				BC6B4A4D18D413AF00F970D1 /* DataStore */,
+				BC6B4A4918D4102000F970D1 /* DomainObject */,
+			);
+			name = DataStore;
+			sourceTree = "<group>";
+		};
+		BC6B4A1718D1473000F970D1 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A1818D1473A00F970D1 /* LOUser.h */,
+				BC6B4A1918D1473A00F970D1 /* LOUser.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		BC6B4A1B18D14A7F00F970D1 /* Starting */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A1C18D14ABF00F970D1 /* LOStartingViewController.h */,
+				BC6B4A1D18D14ABF00F970D1 /* LOStartingViewController.m */,
+				BC6B4A1E18D14ABF00F970D1 /* LOStartingViewController.xib */,
+			);
+			name = Starting;
+			sourceTree = "<group>";
+		};
+		BC6B4A2118D1522700F970D1 /* FitnessType */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A2218D152F000F970D1 /* LOFitnessType.h */,
+				BC6B4A2318D152F000F970D1 /* LOFitnessType.m */,
+				BC6B4A3918D2C74200F970D1 /* TypeController */,
+				BC6B4A2918D166E100F970D1 /* Type */,
+			);
+			name = FitnessType;
+			sourceTree = "<group>";
+		};
+		BC6B4A2518D156C400F970D1 /* TypeSelection */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A2618D156E300F970D1 /* LOTypeSelctionViewController.h */,
+				BC6B4A2718D156E300F970D1 /* LOTypeSelctionViewController.m */,
+			);
+			name = TypeSelection;
+			sourceTree = "<group>";
+		};
+		BC6B4A2918D166E100F970D1 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A3518D16B9100F970D1 /* Bike */,
+				BC6B4A3418D16B8900F970D1 /* Swim */,
+				BC6B4A3018D16A0800F970D1 /* Run */,
+				BC6B4A2E18D169ED00F970D1 /* GenericType */,
+			);
+			name = Type;
+			sourceTree = "<group>";
+		};
+		BC6B4A2E18D169ED00F970D1 /* GenericType */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A2A18D1670600F970D1 /* LOGenericType.h */,
+				BC6B4A2B18D1670600F970D1 /* LOGenericType.m */,
+				BC6B4A2D18D168AC00F970D1 /* LOGenericTypeProtocol.h */,
+			);
+			name = GenericType;
+			sourceTree = "<group>";
+		};
+		BC6B4A3018D16A0800F970D1 /* Run */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A3118D16A2500F970D1 /* LORun.h */,
+				BC6B4A3218D16A2500F970D1 /* LORun.m */,
+			);
+			name = Run;
+			sourceTree = "<group>";
+		};
+		BC6B4A3418D16B8900F970D1 /* Swim */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A3618D16B9F00F970D1 /* LOSwim.h */,
+				BC6B4A3718D16B9F00F970D1 /* LOSwim.m */,
+			);
+			name = Swim;
+			sourceTree = "<group>";
+		};
+		BC6B4A3518D16B9100F970D1 /* Bike */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A4018D2CC6B00F970D1 /* LOBike.h */,
+				BC6B4A4118D2CC6B00F970D1 /* LOBike.m */,
+			);
+			name = Bike;
+			sourceTree = "<group>";
+		};
+		BC6B4A3918D2C74200F970D1 /* TypeController */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A3A18D2C75000F970D1 /* RunController */,
+			);
+			name = TypeController;
+			sourceTree = "<group>";
+		};
+		BC6B4A3A18D2C75000F970D1 /* RunController */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A3B18D2C77400F970D1 /* LORunViewController.h */,
+				BC6B4A3C18D2C77400F970D1 /* LORunViewController.m */,
+				BC6B4A3D18D2C77400F970D1 /* LORunViewController.xib */,
+			);
+			name = RunController;
+			sourceTree = "<group>";
+		};
+		BC6B4A4318D2D94000F970D1 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A4418D2D98D00F970D1 /* LOSummaryViewController.h */,
+				BC6B4A4518D2D98D00F970D1 /* LOSummaryViewController.m */,
+				BC6B4A4618D2D98D00F970D1 /* LOSummaryViewController.xib */,
+			);
+			name = Summary;
+			sourceTree = "<group>";
+		};
+		BC6B4A4918D4102000F970D1 /* DomainObject */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A4A18D4109A00F970D1 /* DailyTypeCalorie.h */,
+				BC6B4A4B18D4109A00F970D1 /* DailyTypeCalorie.m */,
+			);
+			name = DomainObject;
+			sourceTree = "<group>";
+		};
+		BC6B4A4D18D413AF00F970D1 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A1418D1454400F970D1 /* LODataStore.h */,
+				BC6B4A1518D1454400F970D1 /* LODataStore.m */,
+			);
+			name = DataStore;
+			sourceTree = "<group>";
+		};
+		BC6B4A4E18D413CE00F970D1 /* DataDao */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A4F18D4A68E00F970D1 /* LODailyTypeCalorieDao.h */,
+				BC6B4A5018D4A68E00F970D1 /* LODailyTypeCalorieDao.m */,
+			);
+			name = DataDao;
+			sourceTree = "<group>";
+		};
+		BC6B4A5218D4B05B00F970D1 /* Histroy */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A5818D4C0D200F970D1 /* HistoryView */,
+				BC6B4A5318D4B06B00F970D1 /* HistoryController */,
+			);
+			name = Histroy;
+			sourceTree = "<group>";
+		};
+		BC6B4A5318D4B06B00F970D1 /* HistoryController */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A6018D4D05900F970D1 /* LOHistoryTableViewController.h */,
+				BC6B4A6118D4D05900F970D1 /* LOHistoryTableViewController.m */,
+			);
+			name = HistoryController;
+			sourceTree = "<group>";
+		};
+		BC6B4A5818D4C0D200F970D1 /* HistoryView */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A5918D4C0E900F970D1 /* DailyCell */,
+			);
+			name = HistoryView;
+			sourceTree = "<group>";
+		};
+		BC6B4A5918D4C0E900F970D1 /* DailyCell */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A5A18D4C89A00F970D1 /* LODailyCell.h */,
+				BC6B4A5B18D4C89A00F970D1 /* LODailyCell.m */,
+			);
+			name = DailyCell;
+			sourceTree = "<group>";
+		};
+		BC6B4A6318D55CC700F970D1 /* IconsPNG */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A9418D5959600F970D1 /* lineIcon */,
+				BC6B4A8D18D5866D00F970D1 /* NavigationIcons */,
+				BC6B4A6618D55D2A00F970D1 /* Negative */,
+				BC6B4A6518D55CF900F970D1 /* Nature */,
+				BC6B4A6418D55CF000F970D1 /* Postive */,
+			);
+			name = IconsPNG;
+			sourceTree = "<group>";
+		};
+		BC6B4A6418D55CF000F970D1 /* Postive */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A8318D55E3400F970D1 /* cool.png */,
+				BC6B4A8418D55E3400F970D1 /* grin.png */,
+				BC6B4A8518D55E3400F970D1 /* happy.png */,
+				BC6B4A8618D55E3400F970D1 /* smiley.png */,
+				BC6B4A8718D55E3400F970D1 /* wink.png */,
+			);
+			name = Postive;
+			sourceTree = "<group>";
+		};
+		BC6B4A6518D55CF900F970D1 /* Nature */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A7218D55D7500F970D1 /* wondering.png */,
+				BC6B4A7318D55D7500F970D1 /* neutral.png */,
+				BC6B4A7418D55D7500F970D1 /* tongue.png */,
+			);
+			name = Nature;
+			sourceTree = "<group>";
+		};
+		BC6B4A6618D55D2A00F970D1 /* Negative */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A7118D55D7500F970D1 /* shocked.png */,
+				BC6B4A7918D55DB600F970D1 /* angry.png */,
+				BC6B4A7A18D55DB600F970D1 /* confused.png */,
+				BC6B4A7B18D55DB600F970D1 /* evil.png */,
+				BC6B4A7C18D55DB600F970D1 /* sad.png */,
+			);
+			name = Negative;
+			sourceTree = "<group>";
+		};
+		BC6B4A8D18D5866D00F970D1 /* NavigationIcons */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A8E18D5869800F970D1 /* chart-bar-outline.png */,
+				BC6B4A8F18D5869900F970D1 /* user.png */,
+			);
+			name = NavigationIcons;
+			sourceTree = "<group>";
+		};
+		BC6B4A9418D5959600F970D1 /* lineIcon */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4A9518D595AF00F970D1 /* head.png */,
+				BC6B4A9618D595AF00F970D1 /* tail.png */,
+				BC6B4A9218D58F6900F970D1 /* mid.png */,
+			);
+			name = lineIcon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +577,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6B4A8018D55DB600F970D1 /* sad.png in Resources */,
+				BC6B4A4818D2D98D00F970D1 /* LOSummaryViewController.xib in Resources */,
+				BC6B4A8C18D55E3400F970D1 /* wink.png in Resources */,
 				BC6B49EB18D144B000F970D1 /* InfoPlist.strings in Resources */,
+				BC6B4A7D18D55DB600F970D1 /* angry.png in Resources */,
+				BC6B4A7E18D55DB600F970D1 /* confused.png in Resources */,
+				BC6B4A9118D5869900F970D1 /* user.png in Resources */,
+				BC6B4A7718D55D7500F970D1 /* neutral.png in Resources */,
+				BC6B4A8818D55E3400F970D1 /* cool.png in Resources */,
+				BC6B4A8B18D55E3400F970D1 /* smiley.png in Resources */,
+				BC6B4A9818D595AF00F970D1 /* tail.png in Resources */,
 				BC6B49F618D144B000F970D1 /* Images.xcassets in Resources */,
+				BC6B4A7518D55D7500F970D1 /* shocked.png in Resources */,
+				BC6B4A7F18D55DB600F970D1 /* evil.png in Resources */,
+				BC6B4A9718D595AF00F970D1 /* head.png in Resources */,
+				BC6B4A2018D14ABF00F970D1 /* LOStartingViewController.xib in Resources */,
+				BC6B4A8918D55E3400F970D1 /* grin.png in Resources */,
+				BC6B4A7618D55D7500F970D1 /* wondering.png in Resources */,
+				BC6B4A7818D55D7500F970D1 /* tongue.png in Resources */,
+				BC6B4A8A18D55E3400F970D1 /* happy.png in Resources */,
+				BC6B4A9318D58F6900F970D1 /* mid.png in Resources */,
+				BC6B4A9018D5869900F970D1 /* chart-bar-outline.png in Resources */,
+				BC6B4A3F18D2C77400F970D1 /* LORunViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +619,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC6B49ED18D144B000F970D1 /* main.m in Sources */,
+				BC6B4A2C18D1670600F970D1 /* LOGenericType.m in Sources */,
+				BC6B4A4C18D4109A00F970D1 /* DailyTypeCalorie.m in Sources */,
+				BC6B4A4718D2D98D00F970D1 /* LOSummaryViewController.m in Sources */,
+				BC6B4A1F18D14ABF00F970D1 /* LOStartingViewController.m in Sources */,
+				BC6B4A5118D4A68E00F970D1 /* LODailyTypeCalorieDao.m in Sources */,
+				BC6B4A5C18D4C89A00F970D1 /* LODailyCell.m in Sources */,
 				BC6B49F418D144B000F970D1 /* Fitness.xcdatamodeld in Sources */,
+				BC6B4A3318D16A2500F970D1 /* LORun.m in Sources */,
+				BC6B4A4218D2CC6B00F970D1 /* LOBike.m in Sources */,
+				BC6B4A3818D16B9F00F970D1 /* LOSwim.m in Sources */,
+				BC6B4A2418D152F000F970D1 /* LOFitnessType.m in Sources */,
+				BC6B4A3E18D2C77400F970D1 /* LORunViewController.m in Sources */,
+				BC6B4A1618D1454400F970D1 /* LODataStore.m in Sources */,
 				BC6B49F118D144B000F970D1 /* LOAppDelegate.m in Sources */,
+				BC6B4A6218D4D05900F970D1 /* LOHistoryTableViewController.m in Sources */,
+				BC6B4A2818D156E300F970D1 /* LOTypeSelctionViewController.m in Sources */,
+				BC6B4A1A18D1473A00F970D1 /* LOUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +754,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fitness/Fitness-Prefix.pch";
 				INFOPLIST_FILE = "Fitness/Fitness-Info.plist";
@@ -383,6 +768,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fitness/Fitness-Prefix.pch";
 				INFOPLIST_FILE = "Fitness/Fitness-Info.plist";
@@ -470,7 +856,8 @@
 				BC6B49F318D144B000F970D1 /* Fitness.xcdatamodel */,
 			);
 			currentVersion = BC6B49F318D144B000F970D1 /* Fitness.xcdatamodel */;
-			path = Fitness.xcdatamodeld;
+			name = Fitness.xcdatamodeld;
+			path = Fitness/Fitness.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
